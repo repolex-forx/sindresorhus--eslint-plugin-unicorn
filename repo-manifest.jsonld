@@ -10,7 +10,7 @@
       "git:hexsha": "9a3a10c4469907be047107cd31fd8a162f783a95",
       "repolex:parseStatus": "parsed",
       "git:tagName": "v64.0.0",
-      "repolex:parsedAt": "2026-09-17T16:31:03.446741+00:00"
+      "repolex:parsedAt": "2026-09-17T16:35:51.857703+00:00"
     },
     {
       "@id": "https://repolex.ai/r/sindresorhus/eslint-plugin-unicorn/commit/4ee1493bf3db5d5ec874178581a1c2aa29a11e5a",
