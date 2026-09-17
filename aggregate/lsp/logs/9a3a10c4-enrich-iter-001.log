@@ -1,0 +1,91 @@
+[2026-09-17T16:41:09Z] === ENRICH ITERATION 1 START | repo=sindresorhus/eslint-plugin-unicorn sha=9a3a10c4 ===
+[2026-09-17T16:41:09Z] [iter=1] PHASE START: enrich repo=sindresorhus/eslint-plugin-unicorn sha=9a3a10c4 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9a3a10c4-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9a3a10c4469907be047107cd31fd8a162f783a95.nq.gz
+[2026-09-17T16:41:47Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=85 MB
+[2026-09-17T16:41:57Z] [iter=1] AST store loaded triples=1404158 load_secs=10 mem_mb=964 MB
+[2026-09-17T16:41:57Z] [iter=1] Step 2: Finding LSP targets mem_mb=964 MB
+[2026-09-17T16:41:58Z] [iter=1] LSP targets found call_sites=10021 imports=0 extends=3 implements=0 secs=1
+[2026-09-17T16:41:58Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=964 MB
+[2026-09-17T16:42:06Z] [iter=1] Position index built positions=108830 nodes_with_types=120579 secs=8 mem_mb=964 MB
+[2026-09-17T16:42:06Z] [iter=1] Step 3: Starting LSP resolution mem_mb=964 MB already_completed_types=[] already_completed_files=0
+[2026-09-17T16:42:06Z] [iter=1] Resolving target type target_type=call_site count=10021
+[2026-09-17T16:42:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=0 resolved=0 errors=0 current=test/filename-case.js
+[2026-09-17T16:43:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.8 files_done=1 resolved=32 errors=183 current=rules/import-style.js
+[2026-09-17T16:45:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=3 resolved=50 errors=343 current=rules/template-indent.js
+[2026-09-17T16:46:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=5 resolved=54 errors=495 current=test/utils/snapshot-rule-tester.js
+[2026-09-17T16:47:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=9 resolved=245 errors=559 current=rules/prevent-abbreviations.js
+[2026-09-17T16:48:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=11 resolved=274 errors=627 current=test/prevent-abbreviations.js
+[2026-09-17T16:49:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=12 resolved=279 errors=796 current=rules/no-useless-length-check.js
+[2026-09-17T16:50:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.7 files_done=14 resolved=292 errors=886 current=rules/no-document-cookie.js
+[2026-09-17T16:52:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.0 files_done=17 resolved=295 errors=1021 current=rules/prefer-import-meta-properties.js
+[2026-09-17T16:52:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.7 files_done=20 resolved=302 errors=1088 current=rules/prefer-spread.js
+[2026-09-17T16:53:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.4 files_done=21 resolved=313 errors=1168 current=test/consistent-function-scoping.js
+[2026-09-17T16:55:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=22 resolved=314 errors=1319 current=test/no-hex-escape.js
+[2026-09-17T16:55:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=27 resolved=366 errors=1389 current=rules/isolated-functions.js
+[2026-09-17T16:56:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=31 resolved=373 errors=1453 current=rules/relative-url-style.js
+[2026-09-17T16:57:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.2 files_done=36 resolved=380 errors=1551 current=rules/utils/get-call-or-new-expression-tokens.js
+[2026-09-17T16:58:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.9 files_done=40 resolved=380 errors=1629 current=test/string-content.js
+[2026-09-17T16:59:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.9 files_done=42 resolved=395 errors=1731 current=test/prefer-set-has.js
+[2026-09-17T16:59:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=43 resolved=404 errors=1824 current=rules/empty-brace-spaces.js
+[2026-09-17T17:00:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.7 files_done=47 resolved=418 errors=1913 current=test/prefer-export-from.js
+[2026-09-17T17:02:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.9 files_done=48 resolved=420 errors=2036 current=rules/no-unreadable-iife.js
+[2026-09-17T17:02:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.8 files_done=53 resolved=426 errors=2131 current=test/numeric-separators-style.js
+[2026-09-17T17:03:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.5 files_done=59 resolved=459 errors=2199 current=rules/prefer-array-some.js
+[2026-09-17T17:04:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.2 files_done=62 resolved=474 errors=2274 current=rules/no-static-only-class.js
+[2026-09-17T17:04:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.8 files_done=64 resolved=608 errors=2335 current=rules/prefer-dom-node-text-content.js
+[2026-09-17T17:05:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.3 files_done=69 resolved=638 errors=2390 current=test/empty-brace-spaces.js
+[2026-09-17T17:06:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.0 files_done=71 resolved=668 errors=2461 current=test/no-abusive-eslint-disable.js
+[2026-09-17T17:06:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.5 files_done=75 resolved=675 errors=2513 current=rules/prefer-array-find.js
+[2026-09-17T17:09:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.1 files_done=77 resolved=700 errors=2773 current=test/consistent-assert.js
+[2026-09-17T17:10:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.6 files_done=80 resolved=702 errors=2929 current=test/prefer-default-parameters.js
+[2026-09-17T17:11:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.8 files_done=81 resolved=702 errors=3049 current=rules/no-for-loop.js
+[2026-09-17T17:13:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.7 files_done=83 resolved=712 errors=3247 current=test/prefer-global-this.js
+[2026-09-17T17:14:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.2 files_done=86 resolved=716 errors=3303 current=test/require-module-specifiers.js
+[2026-09-17T17:15:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.1 files_done=88 resolved=719 errors=3388 current=rules/prefer-string-slice.js
+[2026-09-17T17:15:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.8 files_done=90 resolved=731 errors=3460 current=test/switch-case-break-position.js
+[2026-09-17T17:16:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.3 files_done=92 resolved=738 errors=3518 current=test/utils/test.js
+[2026-09-17T17:17:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.4 files_done=97 resolved=777 errors=3627 current=test/import-style.js
+[2026-09-17T17:18:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.1 files_done=102 resolved=785 errors=3696 current=test/relative-url-style.js
+[2026-09-17T17:20:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.9 files_done=104 resolved=793 errors=3891 current=rules/fix/switch-call-expression-to-new-expression.js
+[2026-09-17T17:21:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.9 files_done=114 resolved=800 errors=3987 current=test/prefer-classlist-toggle.js
+[2026-09-17T17:21:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.4 files_done=115 resolved=801 errors=4042 current=rules/prefer-string-replace-all.js
+[2026-09-17T17:22:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.0 files_done=119 resolved=809 errors=4101 current=rules/no-process-exit.js
+[2026-09-17T17:23:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.0 files_done=123 resolved=812 errors=4204 current=rules/numeric-separators-style.js
+[2026-09-17T17:23:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.6 files_done=129 resolved=888 errors=4267 current=test/text-encoding-identifier-case.js
+[2026-09-17T17:24:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.3 files_done=132 resolved=897 errors=4332 current=rules/no-empty-file.js
+[2026-09-17T17:24:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.8 files_done=137 resolved=921 errors=4390 current=test/number-literal-case.js
+[2026-09-17T17:25:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.4 files_done=142 resolved=929 errors=4448 current=rules/prefer-includes.js
+[2026-09-17T17:26:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.9 files_done=149 resolved=940 errors=4502 current=rules/consistent-assert.js
+[2026-09-17T17:26:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.4 files_done=154 resolved=958 errors=4556 current=rules/utils/boolean.js
+[2026-09-17T17:27:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.0 files_done=158 resolved=958 errors=4614 current=rules/require-module-attributes.js
+[2026-09-17T17:27:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.6 files_done=161 resolved=974 errors=4670 current=rules/no-immediate-mutation.js
+[2026-09-17T17:28:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.1 files_done=162 resolved=976 errors=4727 current=test/no-useless-undefined.js
+[2026-09-17T17:28:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.6 files_done=167 resolved=978 errors=4780 current=test/prefer-modern-math-apis.js
+[2026-09-17T17:29:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.2 files_done=171 resolved=982 errors=4835 current=test/prefer-number-properties.js
+[2026-09-17T17:29:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.8 files_done=173 resolved=988 errors=4901 current=test/no-unreadable-iife.js
+[2026-09-17T17:30:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.5 files_done=180 resolved=1035 errors=4975 current=rules/no-nested-ternary.js
+[2026-09-17T17:31:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.0 files_done=187 resolved=1043 errors=5028 current=scripts/internal-rules/no-fix-yield-star.js
+[2026-09-17T17:31:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.7 files_done=194 resolved=1048 errors=5100 current=rules/rule/unicorn-context.js
+[2026-09-17T17:32:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.3 files_done=204 resolved=1063 errors=5152 current=rules/prefer-modern-math-apis.js
+[2026-09-17T17:32:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.8 files_done=209 resolved=1077 errors=5209 current=rules/utils/should-add-parentheses-to-member-expression-object.js
+[2026-09-17T17:33:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.4 files_done=214 resolved=1077 errors=5271 current=test/no-useless-switch-case.js
+[2026-09-17T17:34:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.0 files_done=223 resolved=1093 errors=5326 current=rules/prefer-top-level-await.js
+[2026-09-17T17:34:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.7 files_done=231 resolved=1103 errors=5398 current=rules/prefer-type-error.js
+[2026-09-17T17:35:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.2 files_done=237 resolved=1116 errors=5453 current=rules/utils/numeric.js
+[2026-09-17T17:35:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.8 files_done=245 resolved=1130 errors=5510 current=rules/no-null.js
+[2026-09-17T17:36:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.3 files_done=254 resolved=1149 errors=5571 current=test/prefer-math-trunc.js
+[2026-09-17T17:37:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.9 files_done=260 resolved=1175 errors=5624 current=test/prefer-array-some.js
+[2026-09-17T17:37:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.5 files_done=275 resolved=1188 errors=5692 current=rules/utils/cartesian-product-samples.js
+[2026-09-17T17:38:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=57.1 files_done=285 resolved=1206 errors=5751 current=rules/prefer-number-properties.js
+[2026-09-17T17:38:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=57.7 files_done=296 resolved=1227 errors=5810 current=rules/no-negation-in-equality-check.js
+[2026-09-17T17:39:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.2 files_done=308 resolved=1236 errors=5864 current=rules/prefer-math-trunc.js
+[2026-09-17T17:40:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=58.9 files_done=316 resolved=1239 errors=5929 current=rules/ast/is-member-expression.js
+[2026-09-17T17:40:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.4 files_done=329 resolved=1260 errors=5984 current=rules/shared/dom-events.js
+[2026-09-17T17:41:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.9 files_done=346 resolved=1272 errors=6036 current=rules/utils/is-new-expression-with-parentheses.js
+[2026-09-17T17:41:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=60.5 files_done=368 resolved=1279 errors=6091 current=test/prefer-response-static-json.js
+[2026-09-17T17:42:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.0 files_done=400 resolved=1290 errors=6141 current=test/require-number-to-fixed-digits-argument.js
+[2026-09-17T17:42:22Z] [iter=1] Target type resolved target_type=call_site resolved=1292 errors=6166 secs=3617 mem_mb=964 MB
+[2026-09-17T17:42:22Z] [iter=1] Resolving target type target_type=extends_clause count=3
+[2026-09-17T17:42:24Z] [iter=1] Target type resolved target_type=extends_clause resolved=2 errors=0 secs=2 mem_mb=964 MB
+[2026-09-17T17:42:34Z] [iter=1] Step 5: Writing final enrichment file triples=116121
+[2026-09-17T17:42:36Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/9a3a10c4469907be047107cd31fd8a162f783a95.nq.gz size_kb=2636
+[2026-09-17T17:42:36Z] [iter=1] PHASE END: enrich elapsed_s=3688 elapsed_min=61.5 total_triples=116121
